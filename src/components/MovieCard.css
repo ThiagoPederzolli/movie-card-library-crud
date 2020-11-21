@@ -37,7 +37,8 @@
 }
 
 .rating {
-  background-color: rgb(55, 66, 189);
+  background-color: rgb(96, 153, 195);
+  /* background-color: rgb(167, 181, 226); */
   border-radius: 25px;
   color: white;
   font-size: 16px;
@@ -52,15 +53,16 @@
 }
 
 .movie-card-link {
-  background-color: rgb(96, 153, 195);
+  background-color: rgb(55, 66, 189);
   border-radius: 5px;
   color: white;
-  padding: 0.3rem;
+  padding: 0.6rem;
+  margin-top: 0.2rem;
   text-decoration: none;
   text-align: center;
-  width: 120px;
+  width: 100%;
 }
 
 .movie-card-link:hover {
-  background-color: rgb(55, 66, 189);
+  background-color: rgb(96, 153, 195);
 }
