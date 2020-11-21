@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+.movie-card-header {
+  text-align: center;
+  padding: 1rem;
+  background: rgb(90, 118, 200);
+}
+
+.page-title {
+  font-style: 'Merriweather', sans-serif;
+}

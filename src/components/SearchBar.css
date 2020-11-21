@@ -1,0 +1,31 @@
+.search-title {
+  font-size: 1.2rem;
+  color: rgb(55, 66, 189);
+  margin-left: 0.5rem;
+}
+
+.search-form label {
+  padding: 0.5rem;
+}
+
+.search-form input,
+.search-form select {
+  margin: 0.5rem;
+}
+
+.search-form {
+  background: rgb(167, 181, 226);
+  margin-bottom: 2rem;
+}
+
+.add-movie {
+  background-color: rgb(55, 66, 189);
+  border-radius: 10px;
+  color: white;
+  padding: 0.6rem;
+  text-decoration: none;
+}
+
+.add-movie:hover {
+  background: rgb(55, 111, 189);
+}

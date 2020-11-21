@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Texturina:ital,wght@0,400;1,700&display=swap');
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  width: 1200px;
+}
+
+.movie-details-img {
+  height: 400px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.movie-details-links {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.movie-details-title,
+.movie-details-subtitle,
+.movie-details-storyline,
+.movie-details-genre,
+.movie-details-rating {
+  font-family: 'Texturina', sans-serif;
+  font-weight: 700;
+}
+
+.movie-details-title span,
+.movie-details-subtitle span,
+.movie-details-storyline span,
+.movie-details-genre span,
+.movie-details-rating span {
+  font-weight: 400;
+}
+
+.movie-details-link {
+  background-color: rgb(96, 153, 195);
+  border-radius: 5px;
+  color: white;
+  padding: 0.3rem;
+  text-decoration: none;
+  text-align: center;
+  width: 120px;
+}
+
+.movie-details-link:hover {
+  background-color: rgb(55, 66, 189);
+}
