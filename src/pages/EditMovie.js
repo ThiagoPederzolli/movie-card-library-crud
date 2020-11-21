@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import Header from '../components/Header';
+import './EditMovie.css';
 
 import { Loading, MovieForm } from '../components';
 import * as movieAPI from '../services/movieAPI';
@@ -48,8 +50,11 @@ class EditMovie extends Component {
     }
 
     return (
-      <div data-testid="edit-movie">
-        <MovieForm movie={movie} onSubmit={this.handleSubmit} />
+      <div>
+        <Header />
+        <div data-testid="edit-movie" className="edit-movie">
+          <MovieForm movie={movie} onSubmit={this.handleSubmit} />
+        </div>
       </div>
     );
   }

@@ -1,0 +1,19 @@
+.loading-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+}
+.loading-image {
+  width: 200px;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 0 auto;
+  width: 1125px;
+}

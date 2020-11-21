@@ -1,0 +1,41 @@
+.edit-form-title,
+.edit-form-subtitle,
+.edit-form-storyline,
+.edit-form-img,
+.edit-form-genre,
+.edit-form-rating {
+  margin: 0 auto;
+  background-color: rgb(217, 223, 242);
+  margin: 3rem;
+  padding: 1rem;
+  width: 1000px;
+}
+
+.edit-form-title-label input,
+.edit-form-subtitle-label input,
+.edit-form-storyline-label textarea,
+.edit-form-img-label input,
+.edit-form-genre-label select,
+.edit-form-rating-label input {
+  margin-left: 1rem;
+}
+
+.edit-form-button {
+  background-color: rgb(96, 153, 195);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 0.3rem;
+  text-decoration: none;
+  text-align: center;
+  width: 120px;
+}
+
+.edit-form-button:hover {
+  background-color: rgb(55, 66, 189);
+}
+
+.edit-form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
